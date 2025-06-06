@@ -1,0 +1,42 @@
+:root {
+  background-color: rgb(69, 64, 64);
+  box-sizing: border-box;
+}
+
+body {
+  color: #ffffff;
+}
+
+.heading {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 20px;
+  color: greenyellow;
+}
+.app > div {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+
+  border-radius: 4px;
+}
+
+.app span {
+  padding: 10px;
+  background-color: #ffffff;
+  border: 2px solid crimson;
+  border-radius: 4px;
+}
+
+.task {
+  background-color: burlywood;
+  color: brown;
+}
+
+.outcome {
+  background-color: burlywood;
+  color: cadetblue;
+}
